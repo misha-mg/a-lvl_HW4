@@ -5,9 +5,89 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFE3CC;
+  color: #646C8F;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+th, td {
+  border: 1px solid #646C8F;
+  padding: 15px;
+}
+
+.element.bought {
+  background-color: #FFC2B5;
+}
+label{
+  margin-right: 20px;
+}
+span{
+  margin: 10px;
+}
+
+.header-menu ul{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 30px 0px 0px 30px;
+}
+.header-menu ul li a{
+  text-decoration: none;
+  color: #646C8F;
+  font-size: 25px;
+  margin-right: 40px;
+  font-weight: bold;
+}
+.header-menu ul li a:hover{
+  text-decoration: underline;
+}
+
+.about-wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+}
+.about-wrapper h2, h1{
+  text-align: center;
+}
+.about-wrapper h2{
+  font-size: 20px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.sort{
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.input-sort {
+  height: 30px;
+  width: 200px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  border-color: #DCC3A1;
+  background: transparent;
+  color: #646C8F;
+}
+.button {
+  background-color: #DCC3A1;
+  border-radius: 5px;
+  height: 30px;
+  margin: 0px 3px;
+  transition: all 0.2s;
+}
+.button:hover {
+  background-color: #8a7557;
+}
+
+
+.not-found {
+  color: #cb0c0c;
+  font-size: 40px;
 }
