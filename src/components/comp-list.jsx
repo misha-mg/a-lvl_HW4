@@ -17,12 +17,6 @@ const mockComputers = [
   const headers = ["id", "cpu", "location", "RAM", "drivers type", "drivers size", "optional"];
   const searchHeaders = ["id", "cpu", "location", "RAM"];
 
-
-  // for(let i = 0; i < mockComputers.length; i++) {
-  //   mockComputers[i].id = i + 1;
-  // }
-
-
   export function CompList() {
     const [comp, setComp] = useState(mockComputers);
     const [filteredComp, setFilteredComp] = useState(comp);
@@ -44,14 +38,6 @@ const mockComputers = [
       );
       setFilteredComp(newComp);
     };
-
-
-    // const modalDelete = () => {
-    //   let isBoss = confirm("Ты здесь главный?");
-    //   if(isBoss) {
-
-    //   }
-    // }
     
 
     const buttonDelete = (answer) => {

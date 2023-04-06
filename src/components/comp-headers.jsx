@@ -1,8 +1,6 @@
 import "../App.css";
 import React, { useState } from "react";
 
-// const headers = ["id", "cpu", "location", "RAM", "drivers type", "drivers size", "optional"];
-
 export function CompHeader(props) {
 
   const [direction, setDirection] = useState('ASC')
