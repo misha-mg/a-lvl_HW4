@@ -1,0 +1,31 @@
+.portal-buy__wrapper{
+    flex-flow: column nowrap;
+    width: 100vw;
+    height: 106vh;
+    position: absolute;
+    background-color: rgba(117, 117, 117, 0.7);
+    display: none;
+}
+.portal-buy{
+    height: 200px;
+    width: 400px;
+    background-color: #DCC3A1;
+    border: solid 3px #646C8F;
+    border-radius: 20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%); 
+    color: #7a684f;
+    font-weight: bold;
+}
+.portal-buy__buttons button{
+    height: 40px;
+    width: 60px;
+    font-size: 25px;
+    background: #7a684f;
+    color: #f6e0c1;
+    border-radius: 5px;
+    margin: 10px 20px;
+
+}

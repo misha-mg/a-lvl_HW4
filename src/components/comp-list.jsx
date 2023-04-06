@@ -1,7 +1,7 @@
 import "../App.css";
 import { CompHeader } from "./comp-headers";
 import { CopmRow } from "./comp-columns";
-import { BuyPortalElement } from "./buy-portal/buy-portal.jsx"
+import { BuyPortalElement } from "./buy-portal.jsx"
 import React, { useState, useRef, useEffect } from "react";
 
 
